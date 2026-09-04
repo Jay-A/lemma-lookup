@@ -1,5 +1,7 @@
 # lemma-lookup
 
+**Live demo:** https://<your-username>.github.io/lemma-lookup/
+
 Minimal German lemma lookup application using React, Django, and spaCy.
 
 ## MVP Build Checklist
