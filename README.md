@@ -1,6 +1,6 @@
 # lemma-lookup
 
-**Live demo:** https://<your-username>.github.io/lemma-lookup/
+**Live demo:** <a href="https://jay-a.github.io/lemma-lookup/">GitHub Pages</a>
 
 Minimal German lemma lookup application using React, Django, and spaCy.
 
