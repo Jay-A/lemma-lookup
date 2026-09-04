@@ -1,6 +1,6 @@
 import type { ErrorResponse, LookupResponse } from "./types";
 
-const API_BASE_URL = "http://localhost:8000/api";
+const API_BASE_URL = "https://lemma-lookup.onrender.com/api";
 
 export async function lookupWord(word: string): Promise<LookupResponse> {
   const response = await fetch(
