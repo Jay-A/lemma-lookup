@@ -1,0 +1,46 @@
+```gitignore
+# Ignore everything by default
+**
+
+# Allow directories
+# !*/
+!.github/
+!.github/workflows/
+
+# Root files
+!README.md
+!.gitignore
+!.gitattributes
+!.env.example
+!LICENSE
+!Dockerfile
+!pyproject.toml
+
+# Backend
+!backend/
+!backend/manage.py
+!backend/config/
+!backend/config/*.py
+!backend/lookup/
+!backend/lookup/*.py
+
+# Frontend
+!frontend/
+!frontend/package.json
+!frontend/tsconfig.json
+!frontend/vite.config.ts
+!frontend/index.html
+!frontend/src/
+!frontend/src/*.tsx
+!frontend/src/*.ts
+!frontend/src/*.css
+
+# Documentation
+!docs/
+!docs/*.py
+!docs/*.rst
+
+# GitHub Actions
+!.github/workflows/*.yml
+```
+
